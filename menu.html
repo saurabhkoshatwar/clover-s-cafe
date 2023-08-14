@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clover's cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="menu.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin">
+</head>
+
+<body>
+    <div id="menu">
+        <center>
+            <h1>Clovers's cafe</h1>
+        </center>
+        <center>
+            <p>Estd. 2008</p>
+        </center>
+        <hr class="line">
+        <center>
+            <h2>-------- Coffee --------</h2>
+        </center>
+        <div class="item">
+            <p class="flavor">French Vanilla</p>
+            <p class="price">250/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Americano</p>
+            <p class="price">300/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Espresso</p>
+            <p class="price">200/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Capuccino</p>
+            <p class="price">200/-</p>
+        </div>
+        <hr class="line">
+        <center>
+            <h2>-------- Donuts --------</h2>
+        </center>
+        <div class="item">
+            <p class="flavor">Chocolate Donut</p>
+            <p class="price">200/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Vanilla Donut</p>
+            <p class="price">150/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Glazed Donuts</p>
+            <p class="price">300/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Jelly Donuts</p>
+            <p class="price">300/-</p>
+        </div>
+        <hr class="line">
+        <center>
+            <h2>-------- Pastries --------</h2>
+        </center>
+        <div class="item">
+            <p class="flavor">Red Velvet</p>
+            <p class="price">200/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Black currant</p>
+            <p class="price">150/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Vanilla</p>
+            <p class="price">300/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Chocolate</p>
+            <p class="price">300/-</p>
+        </div>
+        <hr class="line">
+        <center>
+            <h2>-------- Milkshake --------</h2>
+        </center>
+        <div class="item">
+            <p class="flavor">Chocolate Milkshake</p>
+            <p class="price">200/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Oreo Milkshake</p>
+            <p class="price">150/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Mango Milkshake</p>
+            <p class="price">300/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Strawberry Milkshake</p>
+            <p class="price">300/-</p>
+        </div>
+        <hr class="line">
+        <center>
+            <h2>-------- Sandwiches --------</h2>
+        </center>
+        <div class="item">
+            <p class="flavor">Grilled cheese sandwich</p>
+            <p class="price">200/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Cluub sandwich</p>
+            <p class="price">150/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Mushroom sandwich</p>
+            <p class="price">300/-</p>
+        </div>
+        <div class="item">
+            <p class="flavor">Cheese corn sandwich</p>
+            <p class="price">300/-</p>
+        </div>
+        <hr class="line">
+        <center>
+            <a href="#sandwich" target="_self">Customize your own sandwich</a>
+        </center>
+
+        <center>
+            <footer>Koregaon Park, opposite World trade center</footer>
+        </center>
+    </div>
+    <div id="sandwich">
+        <center>
+            <h1>Clovers's cafe</h1>
+        </center>
+        <form class="form" action="order.php" method="post" target="_self">
+            <div class="form-group">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" class="form-control" aria-describedby="firstName" placeholder="Enter first name"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" class="form-control" aria-describedby="lastName" placeholder="Enter last name"><br><br>
+            </div>
+            <hr class="line">
+
+            <h3 class="text">- Choose bread (any one) :</h3>
+            <input type="radio" id="whole-wheat" name="fav_bread" value="Whole Wheat">
+            <label for="whole-wheat">Whole Wheat bread</label><br>
+            <input type="radio" id="white-bread" name="fav_bread" value="white bread">
+            <label for="white-bread">White bread</label><br>
+            <input type="radio" id="multigrain" name="fav_bread" value="multigrain">
+            <label for="multigrain">Multigrain bread</label><br>
+            <input type="radio" id="baguette" name="fav_bread" value="baguette">
+            <label for="baguette">Baguette</label><br>
+            <hr class="line">
+
+            <h3 class="text">- Choose meat :</h3>
+            <input type="checkbox" id="chicken-meat" name="chicken-meat" value="chicken">
+            <label for="chicken-meat">Chicken</label><br>
+            <input type="checkbox" id="pepperoni-meat" name="pepperoni-meat" value="pepperoni">
+            <label for="pepperoni-meat">Pepperoni</label><br>
+            <input type="checkbox" id="turkey-meat" name="turkey-meat" value="turkey">
+            <label for="vehicle3">Turkey</label> <br>
+            <hr class="line">
+
+            <h3 class="text">- Choose cheese: </h3>
+            <input type="checkbox" id="cheddar-cheese" name="cheddar-cheese" value="cheddar">
+            <label for="cheddar-cheese">Cheddar</label><br>
+            <input type="checkbox" id="mozzarella-cheese" name="mozzarella-cheese" value="mozzarella">
+            <label for="mozzarella-cheese">Mozzarella</label><br>
+            <input type="checkbox" id="parmesan-cheese" name="parmesan-cheese" value="parmesan">
+            <label for="parmesan-cheese">Parmesan</label> <br>
+            <hr class="line">
+
+            <h3 class="text">- Choose veggies: </h3>
+            <input type="checkbox" id="lettuce" name="lettuce" value="lettuce">
+            <label for="lettuce">Lettuce</label><br>
+            <input type="checkbox" id="tomatoes" name="tomatoes" value="tomatoes">
+            <label for="tomatoes">Tomatoes</label><br>
+            <input type="checkbox" id="cucumbers" name="cucumbers" value="cucumbers">
+            <label for="cucumbers">Cucumbers</label> <br>
+            <input type="checkbox" id="Olives" name="Olives" value="Olives">
+            <label for="Olives">Olives</label> <br>
+            <input type="checkbox" id="Pickles" name="Pickles" value="Pickles">
+            <label for="Pickles">Pickles</label> <br>
+            <input type="checkbox" id="Red peppers" name="Red peppers" value="Red peppers">
+            <label for="Red peppers">Red peppers</label> <br>
+            <input type="checkbox" id="Avocado" name="Avocado" value="Avocado">
+            <label for="Avocado">Avocado</label> <br>
+            <hr class="line">
+
+            <h3 class="text">- Protein options : </h3>
+            <input type="checkbox" id="Black beans" name="Black beans" value="Black beans">
+            <label for="Black beans">Black beans</label><br>
+            <input type="checkbox" id="Mushroom" name="Mushroom" value="Mushroom">
+            <label for="Mushroom">Mushroom</label> <br>
+            <input type="checkbox" id="Falafels" name="Falafels" value="Falafels">
+            <label for="Falafels">Falafels</label> <br>
+            <input type="checkbox" id="Boiled eggs" name="Boiled eggs" value="Boiled eggs">
+            <label for="Boiled eggs">Boiled eggs</label> <br>
+            <hr class="line">
+
+            <h3 class="text">- Spreads : </h3>
+            <input type="checkbox" id="Mayonnaise" name="Mayonnaise" value="Mayonnaise">
+            <label for="Mayonnaise">Mayonnaise</label> <br>
+            <input type="checkbox" id="Mustard" name="Mustard" value="Mustard">
+            <label for="Mustard">Mustard</label> <br>
+            <input type="checkbox" id="Hummus" name="Hummus" value="Hummus">
+            <label for="Hummus">Hummus</label> <br>
+            <input type="checkbox" id="Pesto" name="Pesto" value="Pesto">
+            <label for="Pesto">Pesto</label> <br>
+            <input type="checkbox" id="Ranch" name="Ranch" value="Ranch">
+            <label for="Ranch">Ranch</label> <br>
+            <hr class="line">
+
+            <center>
+                <input type="button" name="submit" value="Submit" class="btn btn-light">
+            </center>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

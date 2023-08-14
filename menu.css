@@ -1,0 +1,85 @@
+body {
+    color: white;
+    font-family: Pangolin, sans-serif;
+    background-color: burlywood;
+    background-attachment: fixed;
+    background-image: url(https://cdn3.vectorstock.com/i/1000x1000/72/52/seamless-restaurant-menu-pattern-background-vector-1807252.jpg);
+    margin: 15px 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#menu {
+    width: 80%;
+    border-radius: 30px;
+    height: auto;
+    background-color: #855E42;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+    /* max-width: 500px; */
+}
+
+.homeText {
+    width: 85%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #855E42;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.item p {
+    display: inline-block;
+    width: 49%;
+    padding: 0px 40px;
+    font-size: 20px;
+}
+
+.price {
+    text-align: right;
+    width: 40%;
+}
+
+
+/* .clover-img{
+  width: 100%;
+} */
+
+.line {
+    margin: 15px 40px;
+    height: 5px;
+    background-color: rgb(63, 15, 15);
+    border-color: rgb(63, 15, 15);
+}
+
+a {
+    color: rgb(63, 15, 15);
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(63, 15, 15);
+}
+
+a:active {
+    color: rgb(63, 15, 15);
+}
+
+footer {
+    margin: 10px 10px;
+}

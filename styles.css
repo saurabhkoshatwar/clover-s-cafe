@@ -1,0 +1,60 @@
+        body {
+            color: white;
+            font-family: Pangolin, sans-serif;
+            background-color: burlywood;
+            background-attachment: fixed;
+            background-image: url(https://cdn3.vectorstock.com/i/1000x1000/72/52/seamless-restaurant-menu-pattern-background-vector-1807252.jpg);
+            margin: 15px 0px;
+        }
+        
+        #sandwich {
+            width: 80%;
+            /* border: 5px solid rgb(125, 107, 224); */
+            border-radius: 30px;
+            height: auto;
+            background-color: #855E42;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px 0px;
+            /* max-width: 500px; */
+        }
+        
+        .form {
+            padding: 10px 40px;
+        }
+        
+        .line {
+            border-radius: 5px;
+            margin: 15px 0px;
+            ;
+            height: 5px;
+            background-color: rgb(63, 15, 15);
+            border-color: rgb(63, 15, 15);
+        }
+        
+        .text {
+            margin: 0%;
+        }
+        
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+        
+        .round {
+            border-radius: 50%;
+        }
+        
+        a {
+            margin-left: 20px;
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            background-color: #ddd;
+            color: black;
+        }
