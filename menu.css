@@ -35,17 +35,34 @@ body {
     width: 40%;
 }
 
+#sandwich {
+    width: 80%;
+    /* border: 5px solid rgb(125, 107, 224); */
+    border-radius: 30px;
+    height: auto;
+    background-color: #855E42;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;
+    /* max-width: 500px; */
+}
+
+.form {
+    padding: 10px 40px;
+}
+
+.line {
+    border-radius: 5px;
+    margin: 15px 40px;
+    height: 5px;
+    border-color: rgb(63, 15, 15);
+    background-color: rgb(63, 15, 15);
+}
+
 
 /* .clover-img{
   width: 100%;
 } */
-
-.line {
-    margin: 15px 40px;
-    height: 5px;
-    background-color: rgb(63, 15, 15);
-    border-color: rgb(63, 15, 15);
-}
 
 a {
     color: rgb(63, 15, 15);
